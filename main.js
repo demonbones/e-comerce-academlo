@@ -84,7 +84,7 @@ function printProducts(products){
         <p>quantity: ${products[i].quantity}</p>
       </div>
       <div class="product__container__button">
-        <button class="car__button add__to__car" id="add__to__car" data-id="${products[i].id}">Add to car</button>
+        <button class="car__button add__to__car" id="add__to__car" data-id="${products[i].id}">Add to cart</button>
         <button class="product__details" data-id="${products[i].id}">View Details</button>
       </div>
     </div>
